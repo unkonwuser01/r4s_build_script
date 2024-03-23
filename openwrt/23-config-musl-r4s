@@ -18,6 +18,14 @@ CONFIG_TARGET_ROOTFS_PARTSIZE=944
 CONFIG_COREMARK_NUMBER_OF_THREADS=8
 # CONFIG_KERNEL_KALLSYMS is not set
 
+###
+CONFIG_PACKAGE_luci-app-adguardhome=y
+CONFIG_PACKAGE_luci-app-acme=y
+CONFIG_PACKAGE_acme=y
+
+CONFIG_PACKAGE_luci-app-adguardhome_INCLUDE_binary=y
+CONFIG_PACKAGE_luci-i18n-adguardhome-zh-cn=y
+
 ### Video Support
 CONFIG_PACKAGE_kmod-drm-rockchip=y
 CONFIG_PACKAGE_kmod-drm-panfrost=y
